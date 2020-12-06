@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue-cli脚手架 | rayhomie&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" href="/img/headPic.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <script charset="utf-8" src="/js/showNav.js"></script>
+    <meta name="description" content="雷浩的前端开发之路">
+    <link rel="preload" href="/assets/css/0.styles.93b5c20c.css" as="style"><link rel="preload" href="/assets/js/app.e152f8f8.js" as="script"><link rel="preload" href="/assets/js/2.d5c68015.js" as="script"><link rel="preload" href="/assets/js/56.080945cc.js" as="script"><link rel="prefetch" href="/assets/js/10.23b2f0ef.js"><link rel="prefetch" href="/assets/js/11.78ef8c59.js"><link rel="prefetch" href="/assets/js/12.d539e661.js"><link rel="prefetch" href="/assets/js/13.88b719fc.js"><link rel="prefetch" href="/assets/js/14.0f8d2e1a.js"><link rel="prefetch" href="/assets/js/15.22bd4a3c.js"><link rel="prefetch" href="/assets/js/16.79faea96.js"><link rel="prefetch" href="/assets/js/17.4382102b.js"><link rel="prefetch" href="/assets/js/18.e90d4a9d.js"><link rel="prefetch" href="/assets/js/19.0bc25eb0.js"><link rel="prefetch" href="/assets/js/20.3948c571.js"><link rel="prefetch" href="/assets/js/21.5be6115a.js"><link rel="prefetch" href="/assets/js/22.efd406dc.js"><link rel="prefetch" href="/assets/js/23.88917cb1.js"><link rel="prefetch" href="/assets/js/24.5f6fefb5.js"><link rel="prefetch" href="/assets/js/25.5ac1ffb2.js"><link rel="prefetch" href="/assets/js/26.f8ed3c80.js"><link rel="prefetch" href="/assets/js/27.8ba0a1ba.js"><link rel="prefetch" href="/assets/js/28.adab42fd.js"><link rel="prefetch" href="/assets/js/29.515a3ae9.js"><link rel="prefetch" href="/assets/js/3.3b15e2e8.js"><link rel="prefetch" href="/assets/js/30.bb786ce8.js"><link rel="prefetch" href="/assets/js/31.aa0ef051.js"><link rel="prefetch" href="/assets/js/32.0d10c6ec.js"><link rel="prefetch" href="/assets/js/33.627355b3.js"><link rel="prefetch" href="/assets/js/34.e66e1b3c.js"><link rel="prefetch" href="/assets/js/35.806155b6.js"><link rel="prefetch" href="/assets/js/36.44011c20.js"><link rel="prefetch" href="/assets/js/37.432fe5fc.js"><link rel="prefetch" href="/assets/js/38.467d6748.js"><link rel="prefetch" href="/assets/js/39.4f7d2283.js"><link rel="prefetch" href="/assets/js/4.ffb357eb.js"><link rel="prefetch" href="/assets/js/40.9bbcd9d1.js"><link rel="prefetch" href="/assets/js/41.83c9acee.js"><link rel="prefetch" href="/assets/js/42.e73f665b.js"><link rel="prefetch" href="/assets/js/43.e6c013ae.js"><link rel="prefetch" href="/assets/js/44.8655f5e0.js"><link rel="prefetch" href="/assets/js/45.20db91d4.js"><link rel="prefetch" href="/assets/js/46.3a83d0d7.js"><link rel="prefetch" href="/assets/js/47.bd4bdda8.js"><link rel="prefetch" href="/assets/js/48.7b218572.js"><link rel="prefetch" href="/assets/js/49.bd8d6e11.js"><link rel="prefetch" href="/assets/js/5.d592fcb3.js"><link rel="prefetch" href="/assets/js/50.7b27a0b4.js"><link rel="prefetch" href="/assets/js/51.353a067f.js"><link rel="prefetch" href="/assets/js/52.dc5e1930.js"><link rel="prefetch" href="/assets/js/53.6f7712fe.js"><link rel="prefetch" href="/assets/js/54.c63a9650.js"><link rel="prefetch" href="/assets/js/55.d4e91f65.js"><link rel="prefetch" href="/assets/js/57.35b996f8.js"><link rel="prefetch" href="/assets/js/58.2ac818be.js"><link rel="prefetch" href="/assets/js/59.9127f559.js"><link rel="prefetch" href="/assets/js/6.e5129266.js"><link rel="prefetch" href="/assets/js/60.bf64317c.js"><link rel="prefetch" href="/assets/js/61.b04f4674.js"><link rel="prefetch" href="/assets/js/62.7297832d.js"><link rel="prefetch" href="/assets/js/63.9e28d951.js"><link rel="prefetch" href="/assets/js/64.10263bce.js"><link rel="prefetch" href="/assets/js/65.bc60b5f0.js"><link rel="prefetch" href="/assets/js/66.1a2c89a0.js"><link rel="prefetch" href="/assets/js/67.2e5c85d5.js"><link rel="prefetch" href="/assets/js/68.9c859105.js"><link rel="prefetch" href="/assets/js/69.e2e4248c.js"><link rel="prefetch" href="/assets/js/7.4001620e.js"><link rel="prefetch" href="/assets/js/70.42043938.js"><link rel="prefetch" href="/assets/js/71.38a43ed3.js"><link rel="prefetch" href="/assets/js/72.66c48b73.js"><link rel="prefetch" href="/assets/js/73.c74283ac.js"><link rel="prefetch" href="/assets/js/74.5bb5195a.js"><link rel="prefetch" href="/assets/js/75.0b8ec014.js"><link rel="prefetch" href="/assets/js/76.3fdf9c6a.js"><link rel="prefetch" href="/assets/js/77.004f00f4.js"><link rel="prefetch" href="/assets/js/78.3cc16590.js"><link rel="prefetch" href="/assets/js/79.2d47ba67.js"><link rel="prefetch" href="/assets/js/8.cb959b51.js"><link rel="prefetch" href="/assets/js/80.c582481c.js"><link rel="prefetch" href="/assets/js/81.ded9b9c0.js"><link rel="prefetch" href="/assets/js/82.d4bb371e.js"><link rel="prefetch" href="/assets/js/83.3ba0ffee.js"><link rel="prefetch" href="/assets/js/84.6c048308.js"><link rel="prefetch" href="/assets/js/85.bbd818fa.js"><link rel="prefetch" href="/assets/js/86.4b188c16.js"><link rel="prefetch" href="/assets/js/87.f9de6c31.js"><link rel="prefetch" href="/assets/js/88.23205340.js"><link rel="prefetch" href="/assets/js/89.e89c7ffc.js"><link rel="prefetch" href="/assets/js/9.49a82253.js"><link rel="prefetch" href="/assets/js/90.3d758ea4.js"><link rel="prefetch" href="/assets/js/91.79d7d138.js"><link rel="prefetch" href="/assets/js/92.e63c5531.js"><link rel="prefetch" href="/assets/js/93.4bec5562.js"><link rel="prefetch" href="/assets/js/94.b8ba325c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.93b5c20c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">rayhomie's blog</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架学习" class="dropdown-title"><span class="title">框架学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VUE/vueBase/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueComponent/" class="nav-link">
+  vue组件化编码
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue_webpack_modules/" class="nav-link">
+  webpacke模块化开发
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-cli/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  vue-cli脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-router/" class="nav-link">
+  vue-router路由
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vuex-learn/" class="nav-link">
+  vuex状态管理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/VueMixin/" class="nav-link">
+  Mixins混入
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueBoost/" class="nav-link">
+  vue性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/axios/" class="nav-link">
+  Axios框架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/mock/" class="nav-link">
+  mock
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/wxprogram/" class="nav-link">
+  小程序入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/uniapp/" class="nav-link">
+  uni-app入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactbase/" class="nav-link">
+  React基础入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ReactCli/" class="nav-link">
+  React脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Redux/" class="nav-link">
+  Redux
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/react-redux/" class="nav-link">
+  react-redux的实现原理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Hooks/" class="nav-link">
+  React Hooks
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactRender/" class="nav-link">
+  react渲染和更新机制
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/setState/" class="nav-link">
+  setState进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/nextTick/" class="nav-link">
+  Vue.nextTick进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactHighCom/" class="nav-link">
+  react高阶组件
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactevent/" class="nav-link">
+  react合成事件分析
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/frontLogin/" class="nav-link">
+  前端登录
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/CORS&amp;proxy/" class="nav-link">
+  CORS跨域和反向代理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/XHR&amp;AJAX/" class="nav-link">
+  XHR对象和AJAX
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript学习" class="dropdown-title"><span class="title">JavaScript学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JavaScript/note/" class="nav-link">
+  js笔记
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/GOGOFACE/" class="nav-link">
+  校招面试冲刺
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/manager/" class="nav-link">
+  js知识整理
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/nodejs/" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Promise/" class="nav-link">
+  Promise
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/AOP/" class="nav-link">
+  AOP切面编程(闭包)
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Generator&amp;yield/" class="nav-link">
+  Generator生成器&amp;Iterator迭代器
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/asyncReturn/" class="nav-link">
+  async中return和return await的区别
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsFaceObject/" class="nav-link">
+  js面向对象基础--创建对象
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPtototypeChain/" class="nav-link">
+  js面向对象基础--原型链
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsBaseExtends/" class="nav-link">
+  js面向对象基础--继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPrototypeExtends/" class="nav-link">
+  js原型继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptCodeClean/" class="nav-link">
+  JavaScript代码整洁之道
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptEventLoop/" class="nav-link">
+  JavaScript事件循环各种概念剖析
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptThisPoint/" class="nav-link">
+  JavaScript简单理解this指向
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/es6this/" class="nav-link">
+  谈谈ES6箭头函数this指向问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/environment/" class="nav-link">
+  词法环境[[environment]]--闭包
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/zuoyongyu/" class="nav-link">
+  js函数作用域与闭包相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/varHosting/" class="nav-link">
+  js中的变量提升和函数提升
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/VO&amp;AO/" class="nav-link">
+  JS中的变量对象VO和活动对象AO
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JScenter/" class="nav-link">
+  JS核心机制（数据类型、垃圾回收机制）
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/handCallApplyBind/" class="nav-link">
+  手写call、apply、bind
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构与算法" class="dropdown-title"><span class="title">数据结构与算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/DataStructure/note/" class="nav-link">
+  笔记整理
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS特效" class="dropdown-title"><span class="title">CSS特效</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CSSEffect/moreColumLayout/" class="nav-link">
+  CSS多列布局的实现
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/writeWords/" class="nav-link">
+  打字机效果以及animation中的steps()函数
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/box-shadow/" class="nav-link">
+  CSS的box-shadow创建边框
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/CSSPointshow/" class="nav-link">
+  纯CSS实现的滚动指示器效果
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/img-lazyload/" class="nav-link">
+  图片模糊加载
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/tuozhuai/" class="nav-link">
+  实现一个拖拽
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/positionSticky/" class="nav-link">
+  实现position:sticky
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/lazyLoad/" class="nav-link">
+  实现下拉加载更多，懒加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随便聊聊" class="dropdown-title"><span class="title">随便聊聊</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/talktalk/onePic/" class="nav-link">
+  一张图总结系列
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/argument/" class="nav-link">
+  js的argument
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/bibao/" class="nav-link">
+  闭包个人理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/eventloop/" class="nav-link">
+  Event Loop理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/chuandicanshu/" class="nav-link">
+  js参数传递理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/var/" class="nav-link">
+  聊聊js变量存储的本质和const修改对象问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/es6open/" class="nav-link">
+  ES6扩展运算符的使用
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/dataInVue/" class="nav-link">
+  为什么.vue文件中data必须用函数表达
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/jsMaopao/" class="nav-link">
+  浅谈js事件捕获和事件冒泡
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFaceTest/" class="nav-link">
+  CSS 面试知识点总结
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFirst/" class="nav-link">
+  CSS 属性继承和优先级算法(权重)
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSSelector/" class="nav-link">
+  了解 CSS 选择器
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSCenter/" class="nav-link">
+  总结一下 CSS 居中的各种方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFloat/" class="nav-link">
+  说说CSS浮动以及清除浮动
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSMargin/" class="nav-link">
+  外边距塌陷问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSBFC/" class="nav-link">
+  浅谈BFC
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTP/" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTPS/" class="nav-link">
+  聊聊HTTPS工作原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/thread/" class="nav-link">
+  进程与线程tcp/ip三次握手
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HtmlHead/" class="nav-link">
+  你知道HTML中Head标签具体怎么用吗？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/JSONStringify/" class="nav-link">
+  JSON.stringify()还可以这么玩
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ObjectAssign/" class="nav-link">
+  Object.assign()的使用指南
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/debounce/" class="nav-link">
+  简单防抖函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/throttle/" class="nav-link">
+  简单节流函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/doubleBinding/" class="nav-link">
+  多种实现双向绑定方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ReactClassComponent/" class="nav-link">
+  React类组件的一些问题浅析
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/brower/" class="nav-link">
+  浏览器运行原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/commonJS&amp;ESmodules/" class="nav-link">
+  commonJS和ESmodules差异
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/DOMDIFF/" class="nav-link">
+  vue中:key=index为什么不建议使用？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/constUseState/" class="nav-link">
+  为什么useState可以使用const解构赋值？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/pipeCopy/" class="nav-link">
+  使用管道流复制大文件
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架学习" class="dropdown-title"><span class="title">框架学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VUE/vueBase/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueComponent/" class="nav-link">
+  vue组件化编码
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue_webpack_modules/" class="nav-link">
+  webpacke模块化开发
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-cli/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  vue-cli脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-router/" class="nav-link">
+  vue-router路由
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vuex-learn/" class="nav-link">
+  vuex状态管理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/VueMixin/" class="nav-link">
+  Mixins混入
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueBoost/" class="nav-link">
+  vue性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/axios/" class="nav-link">
+  Axios框架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/mock/" class="nav-link">
+  mock
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/wxprogram/" class="nav-link">
+  小程序入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/uniapp/" class="nav-link">
+  uni-app入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactbase/" class="nav-link">
+  React基础入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ReactCli/" class="nav-link">
+  React脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Redux/" class="nav-link">
+  Redux
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/react-redux/" class="nav-link">
+  react-redux的实现原理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Hooks/" class="nav-link">
+  React Hooks
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactRender/" class="nav-link">
+  react渲染和更新机制
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/setState/" class="nav-link">
+  setState进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/nextTick/" class="nav-link">
+  Vue.nextTick进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactHighCom/" class="nav-link">
+  react高阶组件
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactevent/" class="nav-link">
+  react合成事件分析
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/frontLogin/" class="nav-link">
+  前端登录
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/CORS&amp;proxy/" class="nav-link">
+  CORS跨域和反向代理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/XHR&amp;AJAX/" class="nav-link">
+  XHR对象和AJAX
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript学习" class="dropdown-title"><span class="title">JavaScript学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JavaScript/note/" class="nav-link">
+  js笔记
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/GOGOFACE/" class="nav-link">
+  校招面试冲刺
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/manager/" class="nav-link">
+  js知识整理
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/nodejs/" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Promise/" class="nav-link">
+  Promise
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/AOP/" class="nav-link">
+  AOP切面编程(闭包)
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Generator&amp;yield/" class="nav-link">
+  Generator生成器&amp;Iterator迭代器
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/asyncReturn/" class="nav-link">
+  async中return和return await的区别
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsFaceObject/" class="nav-link">
+  js面向对象基础--创建对象
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPtototypeChain/" class="nav-link">
+  js面向对象基础--原型链
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsBaseExtends/" class="nav-link">
+  js面向对象基础--继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPrototypeExtends/" class="nav-link">
+  js原型继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptCodeClean/" class="nav-link">
+  JavaScript代码整洁之道
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptEventLoop/" class="nav-link">
+  JavaScript事件循环各种概念剖析
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptThisPoint/" class="nav-link">
+  JavaScript简单理解this指向
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/es6this/" class="nav-link">
+  谈谈ES6箭头函数this指向问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/environment/" class="nav-link">
+  词法环境[[environment]]--闭包
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/zuoyongyu/" class="nav-link">
+  js函数作用域与闭包相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/varHosting/" class="nav-link">
+  js中的变量提升和函数提升
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/VO&amp;AO/" class="nav-link">
+  JS中的变量对象VO和活动对象AO
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JScenter/" class="nav-link">
+  JS核心机制（数据类型、垃圾回收机制）
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/handCallApplyBind/" class="nav-link">
+  手写call、apply、bind
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构与算法" class="dropdown-title"><span class="title">数据结构与算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/DataStructure/note/" class="nav-link">
+  笔记整理
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS特效" class="dropdown-title"><span class="title">CSS特效</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CSSEffect/moreColumLayout/" class="nav-link">
+  CSS多列布局的实现
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/writeWords/" class="nav-link">
+  打字机效果以及animation中的steps()函数
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/box-shadow/" class="nav-link">
+  CSS的box-shadow创建边框
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/CSSPointshow/" class="nav-link">
+  纯CSS实现的滚动指示器效果
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/img-lazyload/" class="nav-link">
+  图片模糊加载
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/tuozhuai/" class="nav-link">
+  实现一个拖拽
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/positionSticky/" class="nav-link">
+  实现position:sticky
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/lazyLoad/" class="nav-link">
+  实现下拉加载更多，懒加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随便聊聊" class="dropdown-title"><span class="title">随便聊聊</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/talktalk/onePic/" class="nav-link">
+  一张图总结系列
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/argument/" class="nav-link">
+  js的argument
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/bibao/" class="nav-link">
+  闭包个人理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/eventloop/" class="nav-link">
+  Event Loop理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/chuandicanshu/" class="nav-link">
+  js参数传递理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/var/" class="nav-link">
+  聊聊js变量存储的本质和const修改对象问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/es6open/" class="nav-link">
+  ES6扩展运算符的使用
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/dataInVue/" class="nav-link">
+  为什么.vue文件中data必须用函数表达
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/jsMaopao/" class="nav-link">
+  浅谈js事件捕获和事件冒泡
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFaceTest/" class="nav-link">
+  CSS 面试知识点总结
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFirst/" class="nav-link">
+  CSS 属性继承和优先级算法(权重)
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSSelector/" class="nav-link">
+  了解 CSS 选择器
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSCenter/" class="nav-link">
+  总结一下 CSS 居中的各种方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFloat/" class="nav-link">
+  说说CSS浮动以及清除浮动
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSMargin/" class="nav-link">
+  外边距塌陷问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSBFC/" class="nav-link">
+  浅谈BFC
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTP/" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTPS/" class="nav-link">
+  聊聊HTTPS工作原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/thread/" class="nav-link">
+  进程与线程tcp/ip三次握手
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HtmlHead/" class="nav-link">
+  你知道HTML中Head标签具体怎么用吗？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/JSONStringify/" class="nav-link">
+  JSON.stringify()还可以这么玩
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ObjectAssign/" class="nav-link">
+  Object.assign()的使用指南
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/debounce/" class="nav-link">
+  简单防抖函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/throttle/" class="nav-link">
+  简单节流函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/doubleBinding/" class="nav-link">
+  多种实现双向绑定方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ReactClassComponent/" class="nav-link">
+  React类组件的一些问题浅析
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/brower/" class="nav-link">
+  浏览器运行原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/commonJS&amp;ESmodules/" class="nav-link">
+  commonJS和ESmodules差异
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/DOMDIFF/" class="nav-link">
+  vue中:key=index为什么不建议使用？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/constUseState/" class="nav-link">
+  为什么useState可以使用const解构赋值？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/pipeCopy/" class="nav-link">
+  使用管道流复制大文件
+</a></li></ul></div></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue-cli脚手架"><a href="#vue-cli脚手架" class="header-anchor">#</a> vue-cli脚手架</h1> <h2 id="一、vuecli的介绍和安装"><a href="#一、vuecli的介绍和安装" class="header-anchor">#</a> 一、vuecli的介绍和安装</h2> <h5 id="_1、介绍"><a href="#_1、介绍" class="header-anchor">#</a> 1、介绍</h5> <p>CLI是Command-Line Interface（命令行界面）俗称脚手架</p> <h6 id="vue-cli使用的前提-node-js、webpack（npm-install-webpack-g全局安装）"><a href="#vue-cli使用的前提-node-js、webpack（npm-install-webpack-g全局安装）" class="header-anchor">#</a> Vue CLI使用的前提 Node.js、webpack（npm install webpack -g全局安装）</h6> <h5 id="_2、安装vue脚手架（cli3）"><a href="#_2、安装vue脚手架（cli3）" class="header-anchor">#</a> 2、安装vue脚手架（cli3）</h5> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> -g @vue/cli   
+</code></pre></div><p>-g就是全局安装（global）</p> <p>注意：此时安装的是最新版本，如果需要想按照vue cli2的方式初始化项目时是不可以的，需要拉去2.x模板，使用旧版本的vue-init功能，需要全局安装一个桥接工具</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> -g @vue/cli-init
+<span class="token comment">#'vue init'的运行效果将跟'vue-cli@2.x'相同</span>
+</code></pre></div><h5 id="_3、初始化项目（init初始化）"><a href="#_3、初始化项目（init初始化）" class="header-anchor">#</a> 3、初始化项目（init初始化）</h5> <h6 id="①vue-cli2中"><a href="#①vue-cli2中" class="header-anchor">#</a> ①vue cli2中</h6> <div class="language- extra-class"><pre class="language-text"><code>vue init webpack 项目名称
+</code></pre></div><h6 id="②vue-cli3中"><a href="#②vue-cli3中" class="header-anchor">#</a> ②vue cli3中</h6> <div class="language- extra-class"><pre class="language-text"><code>vue create 项目名称
+</code></pre></div><h2 id="二、vue-cli2的目录结构解析"><a href="#二、vue-cli2的目录结构解析" class="header-anchor">#</a> 二、vue cli2的目录结构解析</h2> <p><img src="https://img-blog.csdnimg.cn/20200531200855522.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <h5 id="_1、首先看package-json文件"><a href="#_1、首先看package-json文件" class="header-anchor">#</a> 1、首先看package.json文件</h5> <p>谷歌的v8引擎：本来是js-&gt;字节码-&gt;浏览器，现在js-&gt;二进制代码</p> <p>node可以直接执行js代码，是执行js的底层支撑。所以在终端中可以直接用node xxx.js 来执行js文件。</p> <h6 id="①其中-build-node-build-build-js-也就是说在npm-run-build时在执行build-js文件"><a href="#①其中-build-node-build-build-js-也就是说在npm-run-build时在执行build-js文件" class="header-anchor">#</a> ①其中&quot;build&quot;: &quot;node build/build.js&quot;也就是说在npm run build时在执行build.js文件</h6> <p>在build.js中有引导一些配置文件的合并等等东西</p> <h6 id="②其中-dev-webpack-dev-server-inline-progress-config-build-webpack-dev-conf-js"><a href="#②其中-dev-webpack-dev-server-inline-progress-config-build-webpack-dev-conf-js" class="header-anchor">#</a> ②其中&quot;dev&quot;: &quot;webpack-dev-server --inline --progress --config build/webpack.dev.conf.js&quot;</h6> <p>配置开发服务器工具--inline：页面实时刷新，--progress打印监听进程，--config指定需要找的配置文件</p> <h5 id="_2、config文件夹中是定义一些需要用到的变量"><a href="#_2、config文件夹中是定义一些需要用到的变量" class="header-anchor">#</a> 2、config文件夹中是定义一些需要用到的变量</h5> <h5 id="_3、node-modules文件夹里是当前项目很多依赖node的包"><a href="#_3、node-modules文件夹里是当前项目很多依赖node的包" class="header-anchor">#</a> 3、node_modules文件夹里是当前项目很多依赖node的包</h5> <h5 id="_4、static文件夹中的资源发布时会原封不动地（不会重新命名或者改格式）复制到dist文件夹中"><a href="#_4、static文件夹中的资源发布时会原封不动地（不会重新命名或者改格式）复制到dist文件夹中" class="header-anchor">#</a> 4、static文件夹中的资源发布时会原封不动地（不会重新命名或者改格式）复制到dist文件夹中</h5> <p>里面有一个git相关的文件</p> <h5 id="_5、在根目录中"><a href="#_5、在根目录中" class="header-anchor">#</a> 5、在根目录中</h5> <h6 id="①babelrc文件"><a href="#①babelrc文件" class="header-anchor">#</a> ①babelrc文件</h6> <p>是关于babel-loader生产的一些配置文件（js语法转换器）</p> <h6 id="②editorconfig文件"><a href="#②editorconfig文件" class="header-anchor">#</a> ②editorconfig文件</h6> <p>对代码进行统一</p> <h6 id="③eslintignore文件"><a href="#③eslintignore文件" class="header-anchor">#</a> ③eslintignore文件</h6> <p>eslint代码规范检查需要忽略的文件进行配置</p> <h6 id="④gitignore文件"><a href="#④gitignore文件" class="header-anchor">#</a> ④gitignore文件</h6> <p>需要忽略上传服务器的文件进行配置</p> <h6 id="⑤index-html"><a href="#⑤index-html" class="header-anchor">#</a> ⑤index.html</h6> <p>是打包时的模板</p> <h2 id="三、安装cli错误和eslint规范"><a href="#三、安装cli错误和eslint规范" class="header-anchor">#</a> 三、安装CLI错误和ESLint规范</h2> <p>eslint规范很严格，如果需要关闭eslint，需要在config文件夹下找到index.js，找到useEslint把它修改为false</p> <h2 id="四、runtime-compiler和runtime-only的区别"><a href="#四、runtime-compiler和runtime-only的区别" class="header-anchor">#</a> 四、runtime-compiler和runtime-only的区别</h2> <h5 id="_1、main-js文件的区别"><a href="#_1、main-js文件的区别" class="header-anchor">#</a> 1、main.js文件的区别</h5> <p>template-&gt;ast(抽象语法树)-&gt;render-&gt;virtual dom-&gt;真实dom(UI)</p> <h6 id="①runtime-compiler-（没必要用这个）"><a href="#①runtime-compiler-（没必要用这个）" class="header-anchor">#</a> ①runtime-compiler:（没必要用这个）</h6> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  el<span class="token operator">:</span> <span class="token string">'#app'</span><span class="token punctuation">,</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span> App <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  template<span class="token operator">:</span> <span class="token string">'&lt;App/&gt;'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//template-&gt;ast(抽象语法树)-&gt;render-&gt;virtual dom-&gt;真实dom(UI)</span>
+</code></pre></div><h6 id="②runtime-only-（用到更多，更高效）"><a href="#②runtime-only-（用到更多，更高效）" class="header-anchor">#</a> ②runtime-only:（用到更多，更高效）</h6> <p>.vue中发布时都是没有template的，都是被解析成了render函数来处理。也就是说，会把所有的vue组件由vue-template-compiler解析成的对象(render函数)，并且对象里没有template相关的东西，从而提升性能。（注意：其中vue-template-compiler是针对vue组件'.vue文件'解析成render）</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  el<span class="token operator">:</span> <span class="token string">'#app'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token parameter">h</span> <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span><span class="token comment">//箭头函数</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+同理：
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  el<span class="token operator">:</span> <span class="token string">'#app'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">render</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">createElement</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//render：渲染</span>
+      <span class="token comment">//1.createElement('标签名',{标签的属性},['标签内的内容']) -&gt; 会直接把el：'#app'对应的部分替换成&lt;标签名 上面的属性&gt;标签内的内容&lt;/标签名&gt;</span>
+      <span class="token comment">//2.在creatElement()传入组件对象，还不需要在index.html中传入标签就能使用，区别于runtime-compiler。此时.vue文件中的template已经不存在了，是由之前安装的vue-template-compiler，此时再用这个.vue文件是已经是被解析成了render函数，所以没有template的存在</span>
+      <span class="token keyword">return</span> <span class="token function">createElement</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//render-&gt;vdom-&gt;UI</span>
+<span class="token comment">//结论：1.这个性能更高2.文件代码量更少，没有解析部分的代码</span>
+</code></pre></div><h2 id="五、vuecli3创建目录和目录结构"><a href="#五、vuecli3创建目录和目录结构" class="header-anchor">#</a> 五、vueCLI3创建目录和目录结构</h2> <h5 id="_1、vue-cli3和2版本有很大区别"><a href="#_1、vue-cli3和2版本有很大区别" class="header-anchor">#</a> 1、vue-cli3和2版本有很大区别</h5> <p>①vue-cli3是基于webpack4打造，vue-cli2还是webpack3</p> <p>②vue-cli3的设计原则是“0配置”，移除的配置文件根目录下的，build和config等目录</p> <p>③vue-cli3提供了vue ui命令，提供了可视化配置，更加人性化</p> <p>④移除了static文件夹，新增了public文件夹，并且index.html移动到public中</p> <h5 id="_2、创建vuecli3"><a href="#_2、创建vuecli3" class="header-anchor">#</a> 2、创建vueCLI3</h5> <div class="language-bash extra-class"><pre class="language-bash"><code>vue create 项目名称
+</code></pre></div><h5 id="_3、目录结构"><a href="#_3、目录结构" class="header-anchor">#</a> 3、目录结构</h5> <h6 id="①node-modules"><a href="#①node-modules" class="header-anchor">#</a> ①node_modules</h6> <p>通过npm安装的包都放这里</p> <h6 id="②public"><a href="#②public" class="header-anchor">#</a> ②public</h6> <p>这个文件就相当于之前cli2中的static文件，发布的时候这里面的文件不进行处理，一起全部发布出去</p> <h6 id="③src"><a href="#③src" class="header-anchor">#</a> ③src</h6> <p>main.js文件中</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token parameter">h</span> <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">$mount</span><span class="token punctuation">(</span><span class="token string">'#app'</span><span class="token punctuation">)</span>
+<span class="token comment">//他们两个没区别，在vue源码中就会去判断执行$mount('#app')，有el也会执行$mount('#app')。而且el会被render替换掉</span>
+<span class="token keyword">new</span> <span class="token class-name">vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span><span class="token string">'#app'</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token parameter">h</span> <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h6 id="④-browserslistrc文件"><a href="#④-browserslistrc文件" class="header-anchor">#</a> ④.browserslistrc文件</h6> <p>对浏览器适配版本控制</p> <h6 id="⑤-gitignore文件"><a href="#⑤-gitignore文件" class="header-anchor">#</a> ⑤.gitignore文件</h6> <p>对需要忽略发布的文件配置，有些东西不想上传到服务器</p> <h6 id="⑥babel-config-js"><a href="#⑥babel-config-js" class="header-anchor">#</a> ⑥babel.config.js</h6> <p>配置babel相关的东西</p> <h6 id="⑦package-lock-json"><a href="#⑦package-lock-json" class="header-anchor">#</a> ⑦package-lock.json</h6> <p>对package.json文件中的依赖版本的控制</p> <h5 id="_4、暂时跑项目"><a href="#_4、暂时跑项目" class="header-anchor">#</a> 4、暂时跑项目</h5> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> run serve
+</code></pre></div><h5 id="_5、编译构建项目"><a href="#_5、编译构建项目" class="header-anchor">#</a> 5、编译构建项目</h5> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> run build
+</code></pre></div><h2 id="六、vuecli3中webpack配置文件的查看和修改"><a href="#六、vuecli3中webpack配置文件的查看和修改" class="header-anchor">#</a> 六、VueCLI3中webpack配置文件的查看和修改</h2> <h5 id="_1、方式一：图形化配置界面"><a href="#_1、方式一：图形化配置界面" class="header-anchor">#</a> 1、方式一：图形化配置界面</h5> <p>启动配置服务：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>vue ui
+</code></pre></div><h5 id="_2、方式二：找到隐藏的webpack配置"><a href="#_2、方式二：找到隐藏的webpack配置" class="header-anchor">#</a> 2、方式二：找到隐藏的webpack配置</h5> <p>此配置在node_modules/@vue/cli-service的webpack.config.js中</p> <p>在当前文件夹的lib文件夹中还有很多配置</p> <h5 id="_3、方式三：确实需要修改配置"><a href="#_3、方式三：确实需要修改配置" class="header-anchor">#</a> 3、方式三：确实需要修改配置</h5> <p>需要在当前项目根目录下创建一个文件vue.config.js(固定的名字不要随便改)</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+<span class="token comment">//这里写一些配置，之后这些配置就会和@vue文件夹下的配置进行自动的合并</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/15/2020, 10:34:45 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e152f8f8.js" defer></script><script src="/assets/js/2.d5c68015.js" defer></script><script src="/assets/js/56.080945cc.js" defer></script>
+  </body>
+</html>

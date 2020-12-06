@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GIT学习笔记 | rayhomie&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" href="/img/headPic.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <script charset="utf-8" src="/js/showNav.js"></script>
+    <meta name="description" content="雷浩的前端开发之路">
+    <link rel="preload" href="/assets/css/0.styles.93b5c20c.css" as="style"><link rel="preload" href="/assets/js/app.e152f8f8.js" as="script"><link rel="preload" href="/assets/js/2.d5c68015.js" as="script"><link rel="preload" href="/assets/js/48.7b218572.js" as="script"><link rel="prefetch" href="/assets/js/10.23b2f0ef.js"><link rel="prefetch" href="/assets/js/11.78ef8c59.js"><link rel="prefetch" href="/assets/js/12.d539e661.js"><link rel="prefetch" href="/assets/js/13.88b719fc.js"><link rel="prefetch" href="/assets/js/14.0f8d2e1a.js"><link rel="prefetch" href="/assets/js/15.22bd4a3c.js"><link rel="prefetch" href="/assets/js/16.79faea96.js"><link rel="prefetch" href="/assets/js/17.4382102b.js"><link rel="prefetch" href="/assets/js/18.e90d4a9d.js"><link rel="prefetch" href="/assets/js/19.0bc25eb0.js"><link rel="prefetch" href="/assets/js/20.3948c571.js"><link rel="prefetch" href="/assets/js/21.5be6115a.js"><link rel="prefetch" href="/assets/js/22.efd406dc.js"><link rel="prefetch" href="/assets/js/23.88917cb1.js"><link rel="prefetch" href="/assets/js/24.5f6fefb5.js"><link rel="prefetch" href="/assets/js/25.5ac1ffb2.js"><link rel="prefetch" href="/assets/js/26.f8ed3c80.js"><link rel="prefetch" href="/assets/js/27.8ba0a1ba.js"><link rel="prefetch" href="/assets/js/28.adab42fd.js"><link rel="prefetch" href="/assets/js/29.515a3ae9.js"><link rel="prefetch" href="/assets/js/3.3b15e2e8.js"><link rel="prefetch" href="/assets/js/30.bb786ce8.js"><link rel="prefetch" href="/assets/js/31.aa0ef051.js"><link rel="prefetch" href="/assets/js/32.0d10c6ec.js"><link rel="prefetch" href="/assets/js/33.627355b3.js"><link rel="prefetch" href="/assets/js/34.e66e1b3c.js"><link rel="prefetch" href="/assets/js/35.806155b6.js"><link rel="prefetch" href="/assets/js/36.44011c20.js"><link rel="prefetch" href="/assets/js/37.432fe5fc.js"><link rel="prefetch" href="/assets/js/38.467d6748.js"><link rel="prefetch" href="/assets/js/39.4f7d2283.js"><link rel="prefetch" href="/assets/js/4.ffb357eb.js"><link rel="prefetch" href="/assets/js/40.9bbcd9d1.js"><link rel="prefetch" href="/assets/js/41.83c9acee.js"><link rel="prefetch" href="/assets/js/42.e73f665b.js"><link rel="prefetch" href="/assets/js/43.e6c013ae.js"><link rel="prefetch" href="/assets/js/44.8655f5e0.js"><link rel="prefetch" href="/assets/js/45.20db91d4.js"><link rel="prefetch" href="/assets/js/46.3a83d0d7.js"><link rel="prefetch" href="/assets/js/47.bd4bdda8.js"><link rel="prefetch" href="/assets/js/49.bd8d6e11.js"><link rel="prefetch" href="/assets/js/5.d592fcb3.js"><link rel="prefetch" href="/assets/js/50.7b27a0b4.js"><link rel="prefetch" href="/assets/js/51.353a067f.js"><link rel="prefetch" href="/assets/js/52.dc5e1930.js"><link rel="prefetch" href="/assets/js/53.6f7712fe.js"><link rel="prefetch" href="/assets/js/54.c63a9650.js"><link rel="prefetch" href="/assets/js/55.d4e91f65.js"><link rel="prefetch" href="/assets/js/56.080945cc.js"><link rel="prefetch" href="/assets/js/57.35b996f8.js"><link rel="prefetch" href="/assets/js/58.2ac818be.js"><link rel="prefetch" href="/assets/js/59.9127f559.js"><link rel="prefetch" href="/assets/js/6.e5129266.js"><link rel="prefetch" href="/assets/js/60.bf64317c.js"><link rel="prefetch" href="/assets/js/61.b04f4674.js"><link rel="prefetch" href="/assets/js/62.7297832d.js"><link rel="prefetch" href="/assets/js/63.9e28d951.js"><link rel="prefetch" href="/assets/js/64.10263bce.js"><link rel="prefetch" href="/assets/js/65.bc60b5f0.js"><link rel="prefetch" href="/assets/js/66.1a2c89a0.js"><link rel="prefetch" href="/assets/js/67.2e5c85d5.js"><link rel="prefetch" href="/assets/js/68.9c859105.js"><link rel="prefetch" href="/assets/js/69.e2e4248c.js"><link rel="prefetch" href="/assets/js/7.4001620e.js"><link rel="prefetch" href="/assets/js/70.42043938.js"><link rel="prefetch" href="/assets/js/71.38a43ed3.js"><link rel="prefetch" href="/assets/js/72.66c48b73.js"><link rel="prefetch" href="/assets/js/73.c74283ac.js"><link rel="prefetch" href="/assets/js/74.5bb5195a.js"><link rel="prefetch" href="/assets/js/75.0b8ec014.js"><link rel="prefetch" href="/assets/js/76.3fdf9c6a.js"><link rel="prefetch" href="/assets/js/77.004f00f4.js"><link rel="prefetch" href="/assets/js/78.3cc16590.js"><link rel="prefetch" href="/assets/js/79.2d47ba67.js"><link rel="prefetch" href="/assets/js/8.cb959b51.js"><link rel="prefetch" href="/assets/js/80.c582481c.js"><link rel="prefetch" href="/assets/js/81.ded9b9c0.js"><link rel="prefetch" href="/assets/js/82.d4bb371e.js"><link rel="prefetch" href="/assets/js/83.3ba0ffee.js"><link rel="prefetch" href="/assets/js/84.6c048308.js"><link rel="prefetch" href="/assets/js/85.bbd818fa.js"><link rel="prefetch" href="/assets/js/86.4b188c16.js"><link rel="prefetch" href="/assets/js/87.f9de6c31.js"><link rel="prefetch" href="/assets/js/88.23205340.js"><link rel="prefetch" href="/assets/js/89.e89c7ffc.js"><link rel="prefetch" href="/assets/js/9.49a82253.js"><link rel="prefetch" href="/assets/js/90.3d758ea4.js"><link rel="prefetch" href="/assets/js/91.79d7d138.js"><link rel="prefetch" href="/assets/js/92.e63c5531.js"><link rel="prefetch" href="/assets/js/93.4bec5562.js"><link rel="prefetch" href="/assets/js/94.b8ba325c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.93b5c20c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">rayhomie's blog</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架学习" class="dropdown-title"><span class="title">框架学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VUE/vueBase/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueComponent/" class="nav-link">
+  vue组件化编码
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue_webpack_modules/" class="nav-link">
+  webpacke模块化开发
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-cli/" class="nav-link">
+  vue-cli脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-router/" class="nav-link">
+  vue-router路由
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vuex-learn/" class="nav-link">
+  vuex状态管理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/VueMixin/" class="nav-link">
+  Mixins混入
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueBoost/" class="nav-link">
+  vue性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/axios/" class="nav-link">
+  Axios框架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/git/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/mock/" class="nav-link">
+  mock
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/wxprogram/" class="nav-link">
+  小程序入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/uniapp/" class="nav-link">
+  uni-app入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactbase/" class="nav-link">
+  React基础入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ReactCli/" class="nav-link">
+  React脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Redux/" class="nav-link">
+  Redux
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/react-redux/" class="nav-link">
+  react-redux的实现原理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Hooks/" class="nav-link">
+  React Hooks
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactRender/" class="nav-link">
+  react渲染和更新机制
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/setState/" class="nav-link">
+  setState进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/nextTick/" class="nav-link">
+  Vue.nextTick进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactHighCom/" class="nav-link">
+  react高阶组件
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactevent/" class="nav-link">
+  react合成事件分析
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/frontLogin/" class="nav-link">
+  前端登录
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/CORS&amp;proxy/" class="nav-link">
+  CORS跨域和反向代理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/XHR&amp;AJAX/" class="nav-link">
+  XHR对象和AJAX
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript学习" class="dropdown-title"><span class="title">JavaScript学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JavaScript/note/" class="nav-link">
+  js笔记
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/GOGOFACE/" class="nav-link">
+  校招面试冲刺
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/manager/" class="nav-link">
+  js知识整理
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/nodejs/" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Promise/" class="nav-link">
+  Promise
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/AOP/" class="nav-link">
+  AOP切面编程(闭包)
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Generator&amp;yield/" class="nav-link">
+  Generator生成器&amp;Iterator迭代器
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/asyncReturn/" class="nav-link">
+  async中return和return await的区别
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsFaceObject/" class="nav-link">
+  js面向对象基础--创建对象
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPtototypeChain/" class="nav-link">
+  js面向对象基础--原型链
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsBaseExtends/" class="nav-link">
+  js面向对象基础--继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPrototypeExtends/" class="nav-link">
+  js原型继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptCodeClean/" class="nav-link">
+  JavaScript代码整洁之道
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptEventLoop/" class="nav-link">
+  JavaScript事件循环各种概念剖析
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptThisPoint/" class="nav-link">
+  JavaScript简单理解this指向
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/es6this/" class="nav-link">
+  谈谈ES6箭头函数this指向问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/environment/" class="nav-link">
+  词法环境[[environment]]--闭包
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/zuoyongyu/" class="nav-link">
+  js函数作用域与闭包相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/varHosting/" class="nav-link">
+  js中的变量提升和函数提升
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/VO&amp;AO/" class="nav-link">
+  JS中的变量对象VO和活动对象AO
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JScenter/" class="nav-link">
+  JS核心机制（数据类型、垃圾回收机制）
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/handCallApplyBind/" class="nav-link">
+  手写call、apply、bind
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构与算法" class="dropdown-title"><span class="title">数据结构与算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/DataStructure/note/" class="nav-link">
+  笔记整理
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS特效" class="dropdown-title"><span class="title">CSS特效</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CSSEffect/moreColumLayout/" class="nav-link">
+  CSS多列布局的实现
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/writeWords/" class="nav-link">
+  打字机效果以及animation中的steps()函数
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/box-shadow/" class="nav-link">
+  CSS的box-shadow创建边框
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/CSSPointshow/" class="nav-link">
+  纯CSS实现的滚动指示器效果
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/img-lazyload/" class="nav-link">
+  图片模糊加载
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/tuozhuai/" class="nav-link">
+  实现一个拖拽
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/positionSticky/" class="nav-link">
+  实现position:sticky
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/lazyLoad/" class="nav-link">
+  实现下拉加载更多，懒加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随便聊聊" class="dropdown-title"><span class="title">随便聊聊</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/talktalk/onePic/" class="nav-link">
+  一张图总结系列
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/argument/" class="nav-link">
+  js的argument
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/bibao/" class="nav-link">
+  闭包个人理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/eventloop/" class="nav-link">
+  Event Loop理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/chuandicanshu/" class="nav-link">
+  js参数传递理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/var/" class="nav-link">
+  聊聊js变量存储的本质和const修改对象问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/es6open/" class="nav-link">
+  ES6扩展运算符的使用
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/dataInVue/" class="nav-link">
+  为什么.vue文件中data必须用函数表达
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/jsMaopao/" class="nav-link">
+  浅谈js事件捕获和事件冒泡
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFaceTest/" class="nav-link">
+  CSS 面试知识点总结
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFirst/" class="nav-link">
+  CSS 属性继承和优先级算法(权重)
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSSelector/" class="nav-link">
+  了解 CSS 选择器
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSCenter/" class="nav-link">
+  总结一下 CSS 居中的各种方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFloat/" class="nav-link">
+  说说CSS浮动以及清除浮动
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSMargin/" class="nav-link">
+  外边距塌陷问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSBFC/" class="nav-link">
+  浅谈BFC
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTP/" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTPS/" class="nav-link">
+  聊聊HTTPS工作原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/thread/" class="nav-link">
+  进程与线程tcp/ip三次握手
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HtmlHead/" class="nav-link">
+  你知道HTML中Head标签具体怎么用吗？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/JSONStringify/" class="nav-link">
+  JSON.stringify()还可以这么玩
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ObjectAssign/" class="nav-link">
+  Object.assign()的使用指南
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/debounce/" class="nav-link">
+  简单防抖函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/throttle/" class="nav-link">
+  简单节流函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/doubleBinding/" class="nav-link">
+  多种实现双向绑定方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ReactClassComponent/" class="nav-link">
+  React类组件的一些问题浅析
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/brower/" class="nav-link">
+  浏览器运行原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/commonJS&amp;ESmodules/" class="nav-link">
+  commonJS和ESmodules差异
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/DOMDIFF/" class="nav-link">
+  vue中:key=index为什么不建议使用？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/constUseState/" class="nav-link">
+  为什么useState可以使用const解构赋值？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/pipeCopy/" class="nav-link">
+  使用管道流复制大文件
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架学习" class="dropdown-title"><span class="title">框架学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VUE/vueBase/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueComponent/" class="nav-link">
+  vue组件化编码
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue_webpack_modules/" class="nav-link">
+  webpacke模块化开发
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-cli/" class="nav-link">
+  vue-cli脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vue-router/" class="nav-link">
+  vue-router路由
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vuex-learn/" class="nav-link">
+  vuex状态管理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/VueMixin/" class="nav-link">
+  Mixins混入
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/vueBoost/" class="nav-link">
+  vue性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/axios/" class="nav-link">
+  Axios框架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/git/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/mock/" class="nav-link">
+  mock
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/wxprogram/" class="nav-link">
+  小程序入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/uniapp/" class="nav-link">
+  uni-app入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactbase/" class="nav-link">
+  React基础入门
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/ReactCli/" class="nav-link">
+  React脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Redux/" class="nav-link">
+  Redux
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/react-redux/" class="nav-link">
+  react-redux的实现原理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Hooks/" class="nav-link">
+  React Hooks
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactRender/" class="nav-link">
+  react渲染和更新机制
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/setState/" class="nav-link">
+  setState进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/nextTick/" class="nav-link">
+  Vue.nextTick进阶
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/reactHighCom/" class="nav-link">
+  react高阶组件
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/Reactevent/" class="nav-link">
+  react合成事件分析
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/frontLogin/" class="nav-link">
+  前端登录
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/CORS&amp;proxy/" class="nav-link">
+  CORS跨域和反向代理
+</a></li><li class="dropdown-item"><!----> <a href="/VUE/XHR&amp;AJAX/" class="nav-link">
+  XHR对象和AJAX
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript学习" class="dropdown-title"><span class="title">JavaScript学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JavaScript/note/" class="nav-link">
+  js笔记
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/GOGOFACE/" class="nav-link">
+  校招面试冲刺
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/manager/" class="nav-link">
+  js知识整理
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/nodejs/" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Promise/" class="nav-link">
+  Promise
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/AOP/" class="nav-link">
+  AOP切面编程(闭包)
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/Generator&amp;yield/" class="nav-link">
+  Generator生成器&amp;Iterator迭代器
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/asyncReturn/" class="nav-link">
+  async中return和return await的区别
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsFaceObject/" class="nav-link">
+  js面向对象基础--创建对象
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPtototypeChain/" class="nav-link">
+  js面向对象基础--原型链
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsBaseExtends/" class="nav-link">
+  js面向对象基础--继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/jsPrototypeExtends/" class="nav-link">
+  js原型继承
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptCodeClean/" class="nav-link">
+  JavaScript代码整洁之道
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptEventLoop/" class="nav-link">
+  JavaScript事件循环各种概念剖析
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JavaScriptThisPoint/" class="nav-link">
+  JavaScript简单理解this指向
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/es6this/" class="nav-link">
+  谈谈ES6箭头函数this指向问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/environment/" class="nav-link">
+  词法环境[[environment]]--闭包
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/zuoyongyu/" class="nav-link">
+  js函数作用域与闭包相关问题
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/varHosting/" class="nav-link">
+  js中的变量提升和函数提升
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/VO&amp;AO/" class="nav-link">
+  JS中的变量对象VO和活动对象AO
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/JScenter/" class="nav-link">
+  JS核心机制（数据类型、垃圾回收机制）
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/handCallApplyBind/" class="nav-link">
+  手写call、apply、bind
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构与算法" class="dropdown-title"><span class="title">数据结构与算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/DataStructure/note/" class="nav-link">
+  笔记整理
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS特效" class="dropdown-title"><span class="title">CSS特效</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CSSEffect/moreColumLayout/" class="nav-link">
+  CSS多列布局的实现
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/writeWords/" class="nav-link">
+  打字机效果以及animation中的steps()函数
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/box-shadow/" class="nav-link">
+  CSS的box-shadow创建边框
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/CSSPointshow/" class="nav-link">
+  纯CSS实现的滚动指示器效果
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/img-lazyload/" class="nav-link">
+  图片模糊加载
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/tuozhuai/" class="nav-link">
+  实现一个拖拽
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/positionSticky/" class="nav-link">
+  实现position:sticky
+</a></li><li class="dropdown-item"><!----> <a href="/CSSEffect/lazyLoad/" class="nav-link">
+  实现下拉加载更多，懒加载
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随便聊聊" class="dropdown-title"><span class="title">随便聊聊</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/talktalk/onePic/" class="nav-link">
+  一张图总结系列
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/argument/" class="nav-link">
+  js的argument
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/bibao/" class="nav-link">
+  闭包个人理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/eventloop/" class="nav-link">
+  Event Loop理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/chuandicanshu/" class="nav-link">
+  js参数传递理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/var/" class="nav-link">
+  聊聊js变量存储的本质和const修改对象问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/es6open/" class="nav-link">
+  ES6扩展运算符的使用
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/dataInVue/" class="nav-link">
+  为什么.vue文件中data必须用函数表达
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/jsMaopao/" class="nav-link">
+  浅谈js事件捕获和事件冒泡
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFaceTest/" class="nav-link">
+  CSS 面试知识点总结
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFirst/" class="nav-link">
+  CSS 属性继承和优先级算法(权重)
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSSelector/" class="nav-link">
+  了解 CSS 选择器
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSCenter/" class="nav-link">
+  总结一下 CSS 居中的各种方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSFloat/" class="nav-link">
+  说说CSS浮动以及清除浮动
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSMargin/" class="nav-link">
+  外边距塌陷问题
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/CSSBFC/" class="nav-link">
+  浅谈BFC
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTP/" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HTTPS/" class="nav-link">
+  聊聊HTTPS工作原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/thread/" class="nav-link">
+  进程与线程tcp/ip三次握手
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/HtmlHead/" class="nav-link">
+  你知道HTML中Head标签具体怎么用吗？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/JSONStringify/" class="nav-link">
+  JSON.stringify()还可以这么玩
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ObjectAssign/" class="nav-link">
+  Object.assign()的使用指南
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/debounce/" class="nav-link">
+  简单防抖函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/throttle/" class="nav-link">
+  简单节流函数中闭包的问题理解
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/doubleBinding/" class="nav-link">
+  多种实现双向绑定方法
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/ReactClassComponent/" class="nav-link">
+  React类组件的一些问题浅析
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/brower/" class="nav-link">
+  浏览器运行原理
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/commonJS&amp;ESmodules/" class="nav-link">
+  commonJS和ESmodules差异
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/DOMDIFF/" class="nav-link">
+  vue中:key=index为什么不建议使用？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/constUseState/" class="nav-link">
+  为什么useState可以使用const解构赋值？
+</a></li><li class="dropdown-item"><!----> <a href="/talktalk/pipeCopy/" class="nav-link">
+  使用管道流复制大文件
+</a></li></ul></div></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git学习笔记"><a href="#git学习笔记" class="header-anchor">#</a> GIT学习笔记</h1> <h2 id="一、git命令行操作"><a href="#一、git命令行操作" class="header-anchor">#</a> 一、Git命令行操作</h2> <p>首先可以先了解一下Git本地服务器搭建：<img src="https://img-blog.csdnimg.cn/20200406145259386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <h5 id="①本地操作"><a href="#①本地操作" class="header-anchor">#</a> ①本地操作</h5> <h6 id="_1、本地库初始化"><a href="#_1、本地库初始化" class="header-anchor">#</a> 1、本地库初始化</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> init
+<span class="token comment">#初始化本地库</span>
+<span class="token comment">#注意：.git目录中存放的是本地库相关的子目录和文件，不要删除也不要修改。</span>
+</code></pre></div><h6 id="_2、设置签名"><a href="#_2、设置签名" class="header-anchor">#</a> 2、设置签名</h6> <p>形式：用户名：xxx		Email地址：xxx@xxx.com</p> <p>作用：区分不同开发人员的身份，这里的用户名和email地址与远端库的账号密码没有任何关系</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> config user.name xxx
+<span class="token function">git</span> config user.email xxx@xxx.com
+<span class="token comment">#信息保存位置：./.git/config文件</span>
+<span class="token comment">##项目级别/仓库级别：仅在当前本地库范围内有效</span>
+
+<span class="token function">git</span> config --global user.name xxx
+<span class="token function">git</span> config --global user.email xxx@xxx.com
+<span class="token comment">#信息保存位置：当前系统家目录/.gitconfig文件</span>
+<span class="token comment">##系统用户级别：登陆当前操作系统的用户范围</span>
+
+<span class="token comment">#优先级就近原则：项目级别优先于系统用户级别</span>
+<span class="token comment">#必须要有两者之一的级别签名，否则不允许</span>
+</code></pre></div><h6 id="_3、添加"><a href="#_3、添加" class="header-anchor">#</a> 3、添加</h6> <p>将工作区的“新建/修改”添加到暂存区</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">add</span> 文件名.后缀名
+</code></pre></div><h6 id="_4、查看状态"><a href="#_4、查看状态" class="header-anchor">#</a> 4、查看状态</h6> <p>查看工作区、暂存区的状态</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> status
+<span class="token comment">#绿色是已被add到暂存区，可以继续执行commit，也可以把它从暂存区移除</span>
+<span class="token comment">#红色是没有add到暂存区</span>
+
+<span class="token comment">###如果是已被commit的文件，然后被修改了，会自动检测到被修改此时也是查看状态红色，需要重新add再commit的操作（或者是直接&quot;git commit -a&quot;）。其中add再commit分步的操作中，执行add之后，还可以执行'git reset HEAD 文件名.后缀名'来撤回add操作。</span>
+</code></pre></div><h6 id="_5、提交"><a href="#_5、提交" class="header-anchor">#</a> 5、提交</h6> <p>将暂存区的内容提交到本地库</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> commit -m <span class="token string">&quot;注释信息&quot;</span> 文件名.后缀名
+</code></pre></div><h6 id="_6、从暂存区移除"><a href="#_6、从暂存区移除" class="header-anchor">#</a> 6、从暂存区移除</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">rm</span> --cached 文件名.后缀名
+</code></pre></div><h6 id="_7、日志查看"><a href="#_7、日志查看" class="header-anchor">#</a> 7、日志查看</h6> <p>多屏显示控制方式：空格向下翻页，按b向上翻页，按q退出</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> log
+<span class="token comment">#每个记录全部信息显示</span>
+
+<span class="token function">git</span> log --pretty<span class="token operator">=</span>oneline
+<span class="token comment">#每条记录显示一行且完整哈希值显示</span>
+
+<span class="token function">git</span> log --oneline
+<span class="token comment">#每条记录显示一行且七位哈希值显示（只显示当前版本以前的版本）</span>
+
+<span class="token function">git</span> reflog
+<span class="token comment">#显示了HEAD版本指针需要移动的次数</span>
+<span class="token comment">#	HEAD@{移动到当前版本需要的步数}</span>
+</code></pre></div><h6 id="_8、版本前进后退"><a href="#_8、版本前进后退" class="header-anchor">#</a> 8、版本前进后退</h6> <p>reset命令的三个参数对比</p> <p>--soft：仅仅在本地库移动HEAD指针</p> <table><thead><tr><th style="text-align:center;"></th> <th style="text-align:center;">暂存区</th> <th style="text-align:center;">工作区</th></tr></thead> <tbody><tr><td style="text-align:center;">本地库</td> <td style="text-align:center;"></td> <td style="text-align:center;"></td></tr></tbody></table> <p>此时只有本地库后退版本，暂存区与工作区相对没有变，所以git status的话会显示绿色</p> <p>--mixed：在本地库移动HEAD指针，重置暂存区</p> <table><thead><tr><th style="text-align:center;"></th> <th style="text-align:center;"></th> <th style="text-align:center;">工作区</th></tr></thead> <tbody><tr><td style="text-align:center;">本地库</td> <td style="text-align:center;">暂存区</td> <td style="text-align:center;"></td></tr></tbody></table> <p>此时，本地库和暂存区后退版本，暂存区和工作区有差异，相当于是工作区被修改，所以git status的话会显示红色</p> <p>--hard：在本地库移动HEAD指针，重置暂存区，重置工作区</p> <table><thead><tr><th style="text-align:center;"></th> <th style="text-align:center;"></th> <th style="text-align:center;"></th></tr></thead> <tbody><tr><td style="text-align:center;">本地库</td> <td style="text-align:center;">暂存区</td> <td style="text-align:center;">工作区</td></tr></tbody></table> <ul><li>[x] 基于索引值操作[推荐]</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code> <span class="token function">git</span> reset --hard 索引哈希值的一部分
+<span class="token comment">#例如：</span>
+<span class="token comment">#git reset --hard a6ace91</span>
+</code></pre></div><ul><li>[x] 使用^符号：只能后退</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset --hard HEAD^
+<span class="token comment">#注：一个^符号表示后退一步，n个^符号表示后退n步</span>
+</code></pre></div><ul><li>[x] 使用~符号：只能后退</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset --hard HEAD~n
+<span class="token comment">#注：表示后退n步</span>
+</code></pre></div><h6 id="_9、删除文件并找回"><a href="#_9、删除文件并找回" class="header-anchor">#</a> 9、删除文件并找回</h6> <p>前提：删除时，文件存在时的状态提交到了本地库</p> <p>操作：git reset --hard [指针位置]</p> <ul><li>删除操作已经提交到本地库：指针位置指向历史记录</li> <li>删除操作尚未提交到本地库：指针位置使用HEAD</li></ul> <h6 id="_10、比较文件差异"><a href="#_10、比较文件差异" class="header-anchor">#</a> 10、比较文件差异</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span> <span class="token punctuation">[</span>文件名<span class="token punctuation">]</span>
+<span class="token comment">#将工作区中的文件和暂存区进行比较</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span> <span class="token punctuation">[</span>本地库中历史版本<span class="token punctuation">]</span> <span class="token punctuation">[</span>文件名<span class="token punctuation">]</span>
+<span class="token comment">#将工作区中的文件和本地库历史记录比较</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span> HEAD
+<span class="token comment">#不带文件名比较工作区中的所有文件</span>
+</code></pre></div><h5 id="②远程库操作"><a href="#②远程库操作" class="header-anchor">#</a> ②远程库操作</h5> <p>可以先用下图理理思路：
+<img src="https://img-blog.csdnimg.cn/20200406145519920.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/2020040614560364.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <h6 id="_1、创建本地库使用"><a href="#_1、创建本地库使用" class="header-anchor">#</a> 1、创建本地库使用</h6> <p>使用git init初始化</p> <h6 id="_2、创建远程库"><a href="#_2、创建远程库" class="header-anchor">#</a> 2、创建远程库</h6> <p>github上面新建远程仓库</p> <h6 id="_3、在本地创建远程库地址别名"><a href="#_3、在本地创建远程库地址别名" class="header-anchor">#</a> 3、在本地创建远程库地址别名</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> remote <span class="token function">add</span> 别名 github上的https下载地址
+<span class="token comment">#在git本地保存一个以后的要使用的远程仓库地址，并且取一个别名</span>
+<span class="token function">git</span> remote -v 
+<span class="token comment">#查看保存的远程地址</span>
+</code></pre></div><h6 id="_4、推送操作"><a href="#_4、推送操作" class="header-anchor">#</a> 4、推送操作</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> push 别名 分支名
+</code></pre></div><h6 id="_5、克隆操作"><a href="#_5、克隆操作" class="header-anchor">#</a> 5、克隆操作</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> clone github上的https下载地址
+</code></pre></div><ul><li>完整的把远程库下载到本地</li> <li>创建好之前起好的远程地址别名</li> <li>初始化本地库</li></ul> <h6 id="_6、邀请加入团队"><a href="#_6、邀请加入团队" class="header-anchor">#</a> 6、邀请加入团队</h6> <ul><li><p>在github仓库界面，点Settings，再点Collaborators，然后输入需要邀请的用户的github账号。</p></li> <li><p>在被邀请用户中接受邮件，点击相应链接，然后完成邀请。</p></li> <li><p>最后被邀请用户就可以通过git push对仓库进行推送操作了。</p></li></ul> <h6 id="_7、远程库修改的两种拉取方式"><a href="#_7、远程库修改的两种拉取方式" class="header-anchor">#</a> 7、远程库修改的两种拉取方式</h6> <ul><li>是fetch和merge操作的合并，所以fetch+merge=pull</li></ul> <p>方式一：用fetch和merge操作</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">#1.抓取远程仓库修改的数据到本地分支上（读操作不需要密码），使用过后本地文件并没有变</span>
+<span class="token function">git</span> fetch 远程地址别名 分支名
+<span class="token comment">#2. 切换分支到远程仓库的分支上，可以查看刚才拉取的数据，可进行相应的检查修改之类的操作</span>
+<span class="token function">git</span> checkout 远程地址别名/分支名
+<span class="token comment">#3.再切换到本地分支上</span>
+<span class="token function">git</span> checkout 分支名
+<span class="token comment">#4.将远程分支合并到本地分支上，即本地文件就有了拉取的内容了</span>
+<span class="token function">git</span> merge 远程地址别名/分支名
+</code></pre></div><p>方式二：直接使用pull一步到位</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> pull 远程地址别名 分支名
+</code></pre></div><h6 id="_8、团队协作开发时冲突的解决"><a href="#_8、团队协作开发时冲突的解决" class="header-anchor">#</a> 8、团队协作开发时冲突的解决</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> push 远程地址别名 分支名
+<span class="token comment">#如果远程仓库文件内容和本地文件内容有冲突，执行push之后会报错，需要pull一下</span>
+
+<span class="token function">git</span> pull 远程地址别名 分支名
+<span class="token comment">#pull之后进入MERGING（合并中）的状态,进入文件中出现了冲突的表现，需要把特殊符号删除修改之后再进行合并</span>
+
+<span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;</span> HEAD
+xxxxxxxx   edit by a
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
+xxxxxxxx   edit by b
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> e85bff69c91a3ba196cb37315e57020d9fd27aec
+
+<span class="token comment">#然后就和本地分支冲突解决一致</span>
+<span class="token function">git</span> <span class="token function">add</span> 文件名
+<span class="token function">git</span> commit -m <span class="token string">&quot;注释信息&quot;</span> <span class="token comment">#（注意：不需要加文件名！！）</span>
+
+<span class="token comment">#再重新push到远程仓库</span>
+<span class="token function">git</span> push 远程地址别名 分支名
+</code></pre></div><h6 id="_9、跨团队协作fork操作"><a href="#_9、跨团队协作fork操作" class="header-anchor">#</a> 9、跨团队协作fork操作</h6> <p>帮助的人在被帮助人的github上点击fork，然后再帮助人的仓库中有了项目</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">#1.帮助的人把自己仓库的项目克隆到本地</span>
+<span class="token function">git</span> clone github上fork后的的https下载地址
+<span class="token comment">#2.本地修改并提交到本地库</span>
+<span class="token function">git</span> commit -m <span class="token string">&quot;注释信息&quot;</span> 文件名
+<span class="token comment">#3.推送到帮助的人的远程仓库中</span>
+<span class="token function">git</span> push 帮助人的远程地址别名 分支名
+<span class="token comment">#4.帮助人点击pull request，在点new pull request，再点create pull request、</span>
+<span class="token comment">#5.被帮助人再点击pull request，然后审核代码，最后Merge pull request合并代码。</span>
+<span class="token comment">#6.被帮助的人将远程库修改拉取到本地</span>
+<span class="token function">git</span> pull 被帮助人的远程地址别名 分支名
+</code></pre></div><h6 id="_10、通过ssh免密登陆克隆到本地"><a href="#_10、通过ssh免密登陆克隆到本地" class="header-anchor">#</a> 10、通过ssh免密登陆克隆到本地</h6> <p>一、本地新建一个文件夹</p> <p>二、添加新的shh密钥</p> <p>​		①<a href="https://help.github.com/en/articles/checking-for-existing-ssh-keys" target="_blank" rel="noopener noreferrer">Checked for existing SSH keys<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>​		②<a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank" rel="noopener noreferrer">Generated a new SSH key and added it to the ssh-agent<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <ol><li><p>在本地新建文件夹下打开Git Bash。</p></li> <li><p>粘贴以下文本，替换为您的GitHub电子邮件地址。</p> <div class="language-shell extra-class"><pre class="language-shell"><code>$ ssh-keygen -t rsa -b <span class="token number">4096</span> -C <span class="token string">&quot;your_email@example.com&quot;</span>
+</code></pre></div></li> <li><p>将SSH私钥添加到ssh-agent。如果您使用其他名称创建密钥，或者要添加具有其他名称的现有密钥，请使用私有密钥文件的名称替换命令中的<em>id_rsa</em>。</p></li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code>$ ssh-add ~/.ssh/id_rsa
+</code></pre></div><p>​		③<a href="https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank" rel="noopener noreferrer">Add the SSH key to your GitHub account<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <ol><li><p>将SSH密钥复制到剪贴板。</p> <p>如果SSH密钥文件的名称与示例代码的名称不同，请修改文件名以匹配当前设置。复制密钥时，请勿添加任何换行符或空格。</p> <div class="language-shell extra-class"><pre class="language-shell"><code>$ clip <span class="token operator">&lt;</span> ~/.ssh/id_rsa.pub
+<span class="token comment"># Copies the contents of the id_rsa.pub file to your clipboard</span>
+</code></pre></div><p>**提示：**如果<code>clip</code>不起作用，则可以找到隐藏的<code>.ssh</code>文件夹，在您喜欢的文本编辑器中打开文件，然后将其复制到剪贴板。</p></li> <li><p>在任何页面的右上角，点击您的个人资料照片，然后点击<strong>设置</strong>。（In the upper-right corner of any page, click your profile photo, then click <strong>Settings</strong>.）</p></li> <li><p>在用户设置边栏中，点击<strong>SSH和GPG密钥</strong>。（In the user settings sidebar, click <strong>SSH and GPG keys</strong>.）</p></li> <li><p>单击“ **新建SSH密钥”**或“ <strong>添加SSH密钥”</strong>。（Click <strong>New SSH key</strong> or <strong>Add SSH key</strong>.）</p></li> <li><p>在“标题”字段中，为新密钥添加一个描述性标签。例如，如果您使用的是个人Mac，则可以将此键称为“个人MacBook Air”。（In the &quot;Title&quot; field, add a descriptive label for the new key. For example, if you're using a personal Mac, you might call this key &quot;Personal MacBook Air&quot;.）</p></li> <li><p>将您的密钥粘贴到“密钥”字段中。（Paste your key into the &quot;Key&quot; field.）</p></li> <li><p>单击<strong>添加SSH密钥</strong>。（Click <strong>Add SSH key</strong>.）</p></li></ol> <p>三、在github项目页面上拷贝ssh的链接</p> <div class="language- extra-class"><pre class="language-text"><code>git@github.com:rayhomie/webproject.git
+</code></pre></div><p>四、在本地新建文件夹中使用cmd命令行</p> <div class="language- extra-class"><pre class="language-text"><code>git clone git@github.com:rayhomie/webproject.git
+</code></pre></div><h2 id="二、git分支管理"><a href="#二、git分支管理" class="header-anchor">#</a> 二、Git分支管理</h2> <p>下图可以理解分支管理的细节，横轴为时间版本，纵轴为各分支。
+<img src="https://img-blog.csdnimg.cn/20200406145641934.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <h5 id="①什么是分支管理"><a href="#①什么是分支管理" class="header-anchor">#</a> ①什么是分支管理</h5> <p>在版本控制过程中，使用多条线同时进行推进多个任务。</p> <h5 id="②分支管理的好处"><a href="#②分支管理的好处" class="header-anchor">#</a> ②分支管理的好处</h5> <h6 id="_1、同时推进多个功能的开发，提高开发效率。"><a href="#_1、同时推进多个功能的开发，提高开发效率。" class="header-anchor">#</a> 1、同时推进多个功能的开发，提高开发效率。</h6> <h6 id="_2、各个分支在开发过程中，如果某一个分支开发失败，不会对其他分支有任何影响。失败的分支删除重新开始即可。彼此互相独立。"><a href="#_2、各个分支在开发过程中，如果某一个分支开发失败，不会对其他分支有任何影响。失败的分支删除重新开始即可。彼此互相独立。" class="header-anchor">#</a> 2、各个分支在开发过程中，如果某一个分支开发失败，不会对其他分支有任何影响。失败的分支删除重新开始即可。彼此互相独立。</h6> <h5 id="③分支命令操作"><a href="#③分支命令操作" class="header-anchor">#</a> ③分支命令操作</h5> <h6 id="_1、创建分支"><a href="#_1、创建分支" class="header-anchor">#</a> 1、创建分支</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> branch 分支名
+</code></pre></div><h6 id="_2、查看分支"><a href="#_2、查看分支" class="header-anchor">#</a> 2、查看分支</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> branch -v
+</code></pre></div><h6 id="_3、切换分支"><a href="#_3、切换分支" class="header-anchor">#</a> 3、切换分支</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> checkout 分支名
+</code></pre></div><h6 id="_4、合并分支"><a href="#_4、合并分支" class="header-anchor">#</a> 4、合并分支</h6> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">#步骤一：切换到需要被修改的分支（被合并的，可以理解为主线）上</span>
+<span class="token function">git</span> checkout 分支名1
+<span class="token comment">#步骤二：执行merge命令</span>
+<span class="token function">git</span> merge 分支名2
+
+<span class="token comment">#总结：此时就是'分支2'的内容合并到了'分支1'上面</span>
+</code></pre></div><h6 id="_5、解决冲突"><a href="#_5、解决冲突" class="header-anchor">#</a> 5、解决冲突</h6> <p>冲突的表现：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;</span> HEAD
+hhhhhhhhhh edit by hot_fix		<span class="token comment">#当前分支内容</span>
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
+hhhhhhhhhh edit by master		<span class="token comment">#另一分支内容</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> master
+</code></pre></div><p>冲突的解决：</p> <ul><li>第一步：编辑文件，删除特殊符号</li> <li>第二步：把文件修改到满意为止，保存退出</li> <li>第三步：git add 文件名</li> <li>第四步：git commit -m &quot;注释信息&quot;（注：此时commit后面一定不能带具体文件名）</li></ul> <h2 id="三、git基本原理"><a href="#三、git基本原理" class="header-anchor">#</a> 三、Git基本原理</h2> <h5 id="①哈希"><a href="#①哈希" class="header-anchor">#</a> ①哈希</h5> <p>是一个系列的加密算法，各个不同的哈希算法虽然加密强度不同，但是有以下几个共同点:</p> <p>①不管输入数据的数据量有多大，输入同-一个哈 希算法，得到的加密结果长度固定。</p> <p>②哈希算法确定，输入数据确定，输出数据能够保证不变。</p> <p>③哈希算法确定，输入数据有变化，输出数据一定有变化， 而且通常变化很大。</p> <p>④哈希算法不可逆。</p> <p>Git底层采用的是SHA-1算法。</p> <h5 id="②git保存版本的机制"><a href="#②git保存版本的机制" class="header-anchor">#</a> ②Git保存版本的机制</h5> <p><img src="https://img-blog.csdnimg.cn/20200406145820926.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <p><img src="https://img-blog.csdnimg.cn/20200406145846356.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> <h5 id="③git分支管理的本质是创建和移动指针"><a href="#③git分支管理的本质是创建和移动指针" class="header-anchor">#</a> ③Git分支管理的本质是创建和移动指针</h5> <p>很大程度提高了开发效率</p> <p><img src="https://img-blog.csdnimg.cn/20200406150018459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/20200406150022955.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/20200406150027574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/20200406150032366.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> <img src="https://img-blog.csdnimg.cn/20200406150036407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTIyMTAzNg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/15/2020, 10:34:45 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e152f8f8.js" defer></script><script src="/assets/js/2.d5c68015.js" defer></script><script src="/assets/js/48.7b218572.js" defer></script>
+  </body>
+</html>
